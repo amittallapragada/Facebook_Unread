@@ -1,0 +1,1 @@
+Unzip the folder and go to chrome://extensions on google chrome and click the "Load unpacked extension" and select the unzipped folder.

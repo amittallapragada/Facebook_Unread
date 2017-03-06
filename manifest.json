@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+    "name": "Facebook Unseen",
+    "description": "Lets you view messages from people on messenger without them knowing you read it.",
+    "version": "1.0",
+    
+    "content_scripts": [{
+    	"js": ["content.js"],
+    	"matches": ["https://www.messenger.com/*"]
+    }],
+
+    "browser_action": {
+    "default_icon": "logo.png"
+  }
+} 
